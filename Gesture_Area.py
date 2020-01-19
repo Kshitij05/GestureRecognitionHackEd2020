@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import math
+import pyautogui
 
 cap = cv2.VideoCapture(0)
 
@@ -101,14 +102,16 @@ while (1):
             else:
                 if arearatio < 12:
                     cv2.putText(frame, 'Crouch', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+                    #pyautogui.press('down')
 
 
         elif l > 3:
             cv2.putText(frame, 'Jump', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+            pyautogui.press('space')
 
 
         # show the windows
-        cv2.imshow('mask', mask)
+        cv2.imshow('mask', mask)  
         cv2.imshow('frame', frame)
     except:
         pass
