@@ -98,20 +98,20 @@ while (1):
         font = cv2.FONT_HERSHEY_SIMPLEX
         if l == 1:
             if areacnt < 2000:
-                cv2.putText(frame, 'Put hand in the box', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+                cv2.putText(frame, 'Running', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
             else:
                 if arearatio < 12:
                     cv2.putText(frame, 'Crouch', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
-                    #pyautogui.press('down')
+                    pyautogui.keyDown('down')
 
 
-        elif l > 3:
+        elif l > 1:
             cv2.putText(frame, 'Jump', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
             pyautogui.press('space')
 
 
         # show the windows
-        cv2.imshow('mask', mask)  
+        cv2.imshow('mask', mask)
         cv2.imshow('frame', frame)
     except:
         pass
