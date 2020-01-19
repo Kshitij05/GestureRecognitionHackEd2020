@@ -13,3 +13,7 @@ How to play:
 2. Run the Python Program 
 3. Put your clenched fist in the Green Box, and start the game.
 4. Open your fist to Jump, clench back again to stop Jumping. 
+
+
+References used: 
+https://github.com/Sadaival/Hand-Gestures/blob/master/gesture.py
