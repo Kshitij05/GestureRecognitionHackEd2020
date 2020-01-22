@@ -1,4 +1,7 @@
 # ClenchRexHackEd2020
+
+Demo Video: https://youtu.be/yUPsvvMsgsA
+
 Have you ever wondered what it's like to be in the mind of a programming prodigy? 
 We don't, but we do adore the Google Dinosaur Game. 
 
