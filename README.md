@@ -13,6 +13,9 @@ How to play:
 3. Put your clenched fist in the Green Box, and start the game.
 4. Open your fist to Jump, clench back again to stop Jumping. 
 
+Install on Linux:
+
+`pip3 install opencv-python`
 
 References used: 
 https://github.com/Sadaival/Hand-Gestures/blob/master/gesture.py
