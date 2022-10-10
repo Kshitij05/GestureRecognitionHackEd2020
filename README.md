@@ -5,7 +5,7 @@ Demo Video: https://youtu.be/yUPsvvMsgsA
 
 ClenchRex is a program that helps you play the Google Dinosaur Game by using hand gestures. Use ClenchRex to exercise your hands in a fun way! This Gesture-Control Assistant for the Google Dinosaur Game comes with a lot of benefits, and most importantly - it's hella fun! 
 
-How to play: 
+How to play this game: 
 
 0. Download ClenchRex.py from GitHub Repository 
 1. Open Google Dinosaur Game on Chrome 
